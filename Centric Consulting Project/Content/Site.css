@@ -7,6 +7,7 @@
 .body-content {
     padding-left: 15px;
     padding-right: 15px;
+    padding-top: 25px;
 }
 
 /* Override the default bootstrap behavior where horizontal description lists 
@@ -21,4 +22,20 @@ input,
 select,
 textarea {
     max-width: 280px;
+}
+
+.jumbotron {
+
+    background-color: #ffd800;
+    color: #000000;
+    /* border: solid 2px #000000 */ 
+}
+
+.row{
+    background-color: #d2cdd2;
+    color: #000000;
+}
+.navbar{
+    background-color: #000000;
+    color: #faf7f7;
 }
