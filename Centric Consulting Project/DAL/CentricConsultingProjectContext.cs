@@ -14,5 +14,6 @@ namespace Centric_Consulting_Project.DAL
         }
             public DbSet<Profile> profiles { get; set; }
 
+        public System.Data.Entity.DbSet<Centric_Consulting_Project.Models.Recognize> Recognizes { get; set; }
     }
 }

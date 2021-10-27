@@ -129,12 +129,15 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ProfilesController.cs" />
+    <Compile Include="Controllers\RecognizesController.cs" />
     <Compile Include="DAL\CentricConsultingProjectContext.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Migrations\CentricConsultingProject\Configuration.cs" />
+    <Compile Include="Migrations\MISContext\Configuration.cs" />
     <Compile Include="Models\Profile.cs" />
+    <Compile Include="Models\Recognize.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -178,6 +181,11 @@
     <Content Include="Views\Profiles\Details.cshtml" />
     <Content Include="Views\Profiles\Edit.cshtml" />
     <Content Include="Views\Profiles\Index.cshtml" />
+    <Content Include="Views\Recognizes\Create.cshtml" />
+    <Content Include="Views\Recognizes\Delete.cshtml" />
+    <Content Include="Views\Recognizes\Details.cshtml" />
+    <Content Include="Views\Recognizes\Edit.cshtml" />
+    <Content Include="Views\Recognizes\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
